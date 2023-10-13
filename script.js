@@ -3,11 +3,12 @@ const myLocationButton = document.getElementById("btn-my-location");
 const findButton = document.getElementById("btn-find");
 const clearButton = document.getElementById("btn-clear");
 const errorMsg = document.getElementById("error-msg");
-const endpoint = "http://ip-api.com/json";
+const endpointForLocation = "http://ip-api.com/json";
+const endpointForIp = "https://api64.ipify.org?format=json";
 let loading = false;
 
 function find(ip) {
-  fetch(`${endpoint}/${ip}`)
+  fetch(`${endpointForLocation}/${ip}`)
     .then((response) => response.json())
     .then((data) => {
       render(data);
@@ -61,7 +62,7 @@ inputEl.addEventListener("input", function () {
 
 myLocationButton.addEventListener("click", function () {
   setLoading(true,myLocationButton,"My Location");
-  fetch("https://api64.ipify.org?format=json")
+  fetch(endpointForIp)
     .then((response) => response.json())
     .then((data) => {
       const ip = data.ip;
