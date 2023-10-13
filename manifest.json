@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Ip 2 Location",
+    "name": "Ip2Location",
     "version": "1.0",
-    "description": "Ip 2 Location",
+    "description": "Ip 2 Location: is a Chrome extension that offers precise geo-location data for any IP address",
     "permissions": [
         "contextMenus",
         "tabs"
