@@ -10,10 +10,17 @@
 </head>
 
 <body>
-    <input name="inp_ip" id="inp-ip" value="">
+    <div style="display: flex; align-items: center;">
+        <img src="./icons/48x48.png" style="width: 16px; height: 16px;">
+        <p style="margin-left: 8px;">Ip2Location</p>
+    </div>
+
+    <input name="inp_ip" id="inp-ip" value="" placeholder="Please enter an IP address">
     <p id="error-msg" class="danger"></p>
+
     <button id="btn-find">Find</button>
-    <button id="btn-clear">clear</button>
+    <button id="btn-clear">Clear</button>
+    <button id="btn-my-location">My Location</button>
     <ul id="ip-info"></ul>
 
     <script src="script.js"></script>
