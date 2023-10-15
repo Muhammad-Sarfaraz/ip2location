@@ -15,6 +15,11 @@ You can install the extension via using git clone
 $ git clone https://github.com/Muhammad-Sarfaraz/ip2location.git
 ```
 
+Load the unpacked extension in chrome
+```
+Settings->Extensions->Load unpacked
+```
+
 
 ## Change log
 
