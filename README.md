@@ -19,6 +19,10 @@ Load the unpacked extension in chrome
 ```
 Settings->Extensions->Load unpacked
 ```
+Finally Published:
+```
+https://chrome.google.com/webstore/detail/ip2location/dijmhdpmneceedgojcfmhaedhficbeek
+```
 
 
 ## Change log
