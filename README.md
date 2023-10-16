@@ -24,6 +24,11 @@ Finally Published:
 https://chrome.google.com/webstore/detail/ip2location/dijmhdpmneceedgojcfmhaedhficbeek
 ```
 
+## Special Thanks
+- Khushbunnahar Anita
+- Forhad Alam
+- & all the well wisher.
+
 
 ## Change log
 
