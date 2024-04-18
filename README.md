@@ -2,6 +2,12 @@
     <img height="128px" width="128px" src="https://raw.githubusercontent.com/Muhammad-Sarfaraz/ip2location/main/icons/128x128.png">
 </p>
 
+<div align="center">
+
+[**→ Install now**](https://chromewebstore.google.com/detail/ip2location/dijmhdpmneceedgojcfmhaedhficbeek)
+
+</div>
+
 # Ip To location [A Google Chrome Extension]
 🌍 Ip2Location: Geolocate any IP address effortlessly.
 
